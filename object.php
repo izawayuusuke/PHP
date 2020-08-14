@@ -10,7 +10,7 @@
   $fruit = array("Apple" => "りんご", "Orange" => "みかん",
       "Grape" => "ぶどう");
     while(list($key, $val) = each($fruit)) {
-      print("インデックスの $key は、$val です。<br>\n");
+      print("インデックスの${key}は、${val}です。<br>\n");
     }
   ?>
 </body>
