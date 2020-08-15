@@ -15,7 +15,12 @@
 
   $beginner = "初心者のための";
   $webpage = "ホームページ作り";
-  print($beginner. $webpage);
+  print("${beginner}${webpage}<br>");
+
+  $base = "初心者のためのホームページ作り";
+  $scriptphp = "PHP入門<br>\n";
+  $word = str_replace($webpage, $scriptphp, $base);
+  print($word);
   ?>
 </body>
 </html>
