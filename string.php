@@ -7,8 +7,11 @@
 </head>
 <body>
   <?php
-  $str = "初心者のためのPHP入門<br>\n文字列の項目";
+  $str = "<p>初心者のためのPHP入門<br>\n文字列の項目</p>";
   print($str);
+
+  $esq = "このような文字列はバックスラッシュによって、エスケープする必要がある。<br>\n'\"\\\t\n\$\r";
+  print($esq);
   ?>
 </body>
 </html>
