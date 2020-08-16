@@ -14,6 +14,11 @@
     print($lectur[$a]). "&#160;\n";
     $a++;
   }
+
+  // for構文
+  for($a = 0; $a < 4; $a++) {
+    print($lectur[$a]. "&#160;\n");
+  }
   ?>
 </body>
 </html>
