@@ -19,6 +19,13 @@
   for($a = 0; $a < 4; $a++) {
     print($lectur[$a]. "&#160;\n");
   }
+
+  //do...while構文
+  $a = 0;
+  do {
+    print($lectur[$a]. "&#160;\n");
+    $a++;
+  } while($a < 4);
   ?>
 </body>
 </html>
