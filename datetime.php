@@ -10,7 +10,10 @@
   $today = getdate();
   print("$today[year]年$today[mon]月$today[mday]日<br>\n");
   print("今年1月1日から$today[yday]日目です<br>\n");
-  print("$today[weekday]/$today[month]/$today[mday]/$today[year]");
+  print("$today[weekday]/$today[month]/$today[mday]/$today[year]<br>\n");
+
+  $today = date("Y/m/d | H:i:s<br>\n");
+  print($today);
   ?>
 </body>
 </html>
